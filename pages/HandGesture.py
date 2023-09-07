@@ -11,7 +11,7 @@ uploaded_file = st.file_uploader("Choose a image file")
 
 map_dict = {0:'Right',
             1:'Left',
-            2:'Up'
+            2:'Up',
             3:'Down',
             4:'Move',
             5:'Left',
