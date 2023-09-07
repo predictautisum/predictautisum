@@ -9,20 +9,20 @@ model = tf.keras.models.load_model("saved_model/handgesture.hdf5")
 ### load file
 uploaded_file = st.file_uploader("Choose a image file")
 
-map_dict = {0:'Clematis',
-            1:'Ipomoea',
-            2:'bluewaterlily',
-            3:'bovitiya',
-            4:'Brugmansiasanguinea',
-            5:'Daturainoxia',
-            6:'Erysimumcheiri',
-            7:'flamelily',
-            8:'GardenNasturtium',
-            9:'milla',
-            10:'neluflower',
-            11:'orchid',
-            12:'Rhododendron',
-            13:'thebu'
+map_dict = {0:'Right',
+            1:'Left',
+            2:'Up'
+            3:'Down',
+            4:'Move',
+            5:'Left',
+            6:'Right',
+            7:'Left',
+            8:'Move',
+            9:'Down',
+            10:'Not Recognize',
+            11:'Not recognize',
+            12:'Cancel',
+            13:'No Response'
             }
 
 
